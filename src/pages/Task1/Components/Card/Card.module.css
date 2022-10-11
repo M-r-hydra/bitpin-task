@@ -1,0 +1,26 @@
+.cardItem {
+  width: 60vw;
+  height: 20vh;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.cardItem:hover {
+  background-color: rgba(135, 53, 138, 0.74);
+}
+
+.cardItem .left {
+  width: 10rem;
+  height: 10rem;
+}
+
+.cardItem .left img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardItem .right {
+  width: 30%;
+  height: 100%;
+}
+/*# sourceMappingURL=Card.module.css.map */

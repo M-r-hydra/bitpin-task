@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACxB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,GAAG;CAUb;;AAhBD,AAOE,yBAPuB,CAOvB,EAAE,CAAC;EACD,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAIpB;;AAfH,AAYI,yBAZqB,CAOvB,EAAE,CAKA,EAAE,CAAC;EACD,KAAK,EAAE,WAAW;CACnB",
+    "sources": [
+        "PaginatedItems.module.scss"
+    ],
+    "names": [],
+    "file": "PaginatedItems.module.css"
+}
