@@ -11,7 +11,7 @@ ways to see this project :
 
 2.  <br />
 
-               <a href="https://task.my-template.ir"> click here </a>
+             https://task.my-template.ir
 
     <br /><br />
 
