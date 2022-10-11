@@ -5,7 +5,7 @@ ways to see this project :
 
 1.  <br />
 
-               <a href="https://task.siah-sefid-mag.ir"> click here </a>
+               https://task.siah-sefid-mag.ir
 
     <br /><br />
 
