@@ -1,38 +1,20 @@
 .paginationItemsContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   padding: 3vw;
 }
-
 .paginationItemsContainer ul {
   width: 35vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
 }
-
 .paginationItemsContainer ul li {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-}
-/*# sourceMappingURL=PaginatedItems.module.css.map */
+}/*# sourceMappingURL=PaginatedItems.module.css.map */

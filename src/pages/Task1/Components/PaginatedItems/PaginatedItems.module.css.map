@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACxB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,GAAG;CAUb;;AAhBD,AAOE,yBAPuB,CAOvB,EAAE,CAAC;EACD,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAIpB;;AAfH,AAYI,yBAZqB,CAOvB,EAAE,CAKA,EAAE,CAAC;EACD,KAAK,EAAE,WAAW;CACnB",
-    "sources": [
-        "PaginatedItems.module.scss"
-    ],
-    "names": [],
-    "file": "PaginatedItems.module.css"
-}
+{"version":3,"sources":["PaginatedItems.module.scss","PaginatedItems.module.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,sBAAA;EACA,YAAA;ACCF;ADAE;EACE,WAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,gBAAA;ACEJ;ADDI;EACE,0BAAA;EAAA,uBAAA;EAAA,kBAAA;ACGN","file":"PaginatedItems.module.css"}

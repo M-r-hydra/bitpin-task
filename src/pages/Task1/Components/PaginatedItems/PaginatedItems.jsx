@@ -16,7 +16,18 @@ import Card from "../Card/Card";
 function PaginatedItems({ itemsPerPage }) {
   // state For initialize Data that fetch from the server
   const [data, setData] = useState([]);
+  //**
+  // current Items stored in here by paginating Number
+  const [pageCount, setPageCount] = useState(0);
+  //   // page Count that Maked by react Pagination
+  const [itemOffset, setItemOffset] = useState(0);
+  //   // item offset that Maked by react Pagination
+  //   **
   // state For initialize Data that fetch from the server
+  //   **
+  // current Items stored in here by paginating Number
+  const [currentItems, setCurrentItems] = useState([]);
+  // current Items stored in here by paginating Number
   //   **
   // Here We Call the server for fethching Data and store it in our state
   useEffect(() => {
@@ -24,25 +35,7 @@ function PaginatedItems({ itemsPerPage }) {
       setData(res.data.results);
     });
   }, []);
-  // Here We Call the server for fethching Data and store it in our state
   //   **
-  // current Items stored in here by paginating Number
-  const [currentItems, setCurrentItems] = useState([]);
-  // current Items stored in here by paginating Number
-  //   **
-  // current Items stored in here by paginating Number
-  const [pageCount, setPageCount] = useState(0);
-  //   // page Count that Maked by react Pagination
-  const [itemOffset, setItemOffset] = useState(0);
-  //   // item offset that Maked by react Pagination
-  //   **
-  //   **
-  //   Our click handler that setted New Offset
-  const handlePageClick = (event) => {
-    const newOffset = (event.selected * itemsPerPage) % data.length;
-    setItemOffset(newOffset);
-  };
-  //   Our click handler that setted New Offset
   //   in here we set our State by page number
   useEffect(() => {
     const endOffset = itemOffset + itemsPerPage;
@@ -51,6 +44,14 @@ function PaginatedItems({ itemsPerPage }) {
     setPageCount(Math.ceil(data.length / itemsPerPage));
   }, [itemOffset, itemsPerPage, data]);
   //   in here we set our State by page number
+  // Here We Call the server for fethching Data and store it in our state
+  //   **
+  //   Our click handler that setted New Offset
+  const handlePageClick = (event) => {
+    const newOffset = (event.selected * itemsPerPage) % data.length;
+    setItemOffset(newOffset);
+  };
+  //   Our click handler that setted New Offset
 
   return (
     <div className={styles.paginationItemsContainer}>
